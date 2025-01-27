@@ -4,6 +4,8 @@
 
 1. Abstract sketch dataset from TUB : https://drive.google.com/file/d/1tFc2dNEToTLwzoAK_UCVIjJPXRLC2PAa/view?usp=drive_link
 
+   
+
 ## Install
 
 ```
@@ -30,6 +32,10 @@ pip install . -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
 
 1. Replace train_vqgan.py
 2. Modify vqgan_config_@hjy.yaml
+
+## Pretrained vgg19
+
+download from https://download.pytorch.org/models/vgg16-397923af.pth
 
 ## Train VQGAN
 
