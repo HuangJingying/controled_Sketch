@@ -2,9 +2,11 @@
 
 ## Sketch Dataset
 
-1. Abstract sketch dataset from TUB (20k): https://drive.google.com/file/d/1tFc2dNEToTLwzoAK_UCVIjJPXRLC2PAa/view?usp=drive_link
+1. Abstract sketch dataset from TUB (20k, only abstract sketches): https://drive.google.com/file/d/1tFc2dNEToTLwzoAK_UCVIjJPXRLC2PAa/view?usp=drive_link
 
 2. Abstract sketch dataset with abstract sketch - real image pairs **[sketchy](https://github.com/CDOTAD/SketchyDatabase) (70k)**: https://drive.google.com/file/d/0B7ISyeE8QtDdTjE1MG9Gcy1kSkE/view?usp=sharing&resourcekey=0-r6nB4crmdU-LK7H38xnOUw
+
+   use images in **tx_000000000000** for both sketches and photoes
 
    
 
