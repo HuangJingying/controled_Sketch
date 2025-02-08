@@ -6,7 +6,9 @@
 
 2. Abstract sketch dataset with abstract sketch - real image pairs **[sketchy](https://github.com/CDOTAD/SketchyDatabase) (70k)**: https://drive.google.com/file/d/0B7ISyeE8QtDdTjE1MG9Gcy1kSkE/view?usp=sharing&resourcekey=0-r6nB4crmdU-LK7H38xnOUw
 
-   use images in **tx_000000000000** for both sketches and photoes
+   * use images in **tx_000000000000** for both sketches and photoes
+
+   * use command `find . -type f > filelist.txt` to create **filelist.txt** in tx_000000000000/
 
    
 
