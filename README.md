@@ -1,12 +1,14 @@
 # controled_Sketch
 
-## Dataset
+## Sketch Dataset
 
-1. Abstract sketch dataset from TUB : https://drive.google.com/file/d/1tFc2dNEToTLwzoAK_UCVIjJPXRLC2PAa/view?usp=drive_link
+1. Abstract sketch dataset from TUB (20k): https://drive.google.com/file/d/1tFc2dNEToTLwzoAK_UCVIjJPXRLC2PAa/view?usp=drive_link
+
+2. Abstract sketch dataset **[sketchy](https://github.com/CDOTAD/SketchyDatabase)(70k)**: https://drive.google.com/file/d/0B7ISyeE8QtDdTjE1MG9Gcy1kSkE/view?usp=sharing&resourcekey=0-r6nB4crmdU-LK7H38xnOUw
 
    
 
-## Install
+## Install diffusers
 
 ```
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
@@ -28,19 +30,18 @@ mv download_weights/vgg19-dcbb9e9d.pth /home/hjy/.cache/torch/hub/checkpoints/
 pip install . -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
 
 ```
-## Config
+## Set Config
 
 1. Replace train_vqgan.py
 2. Modify vqgan_config_@hjy.yaml
 
-## Pretrained vgg19
+## Download Pretrained vgg19
 
-download from https://download.pytorch.org/models/vgg16-397923af.pth
+Download vgg19 from https://download.pytorch.org/models/vgg19-dcbb9e9d.pth
 
 ## Train VQGAN
 
 ```shell
-
 
 accelerate launch train_vqgan.py \
   --train_data_dir="./sketchdataset/sketches_png.TUB/train" \
